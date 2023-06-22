@@ -3,8 +3,8 @@ const app = express();
 
 app.set("port", process.env.PORT || 3000);
 
-const imgupload = require("/routes/upImg.js");
-const imgdwload = require("/routes/dwImg.js");
+const imgupload = require("./routes/upImg.js");
+const imgdwload = require("./routes/dwImg.js");
 
 app.get("/", (req, res) => {
   res.send("F.i.l.e.을 보내고 받아 보께요");
