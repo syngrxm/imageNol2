@@ -9,10 +9,10 @@ const imgdwload = require("/home/sumin/바탕화면/imageNol2/routes/dwImg.js");
 app.get("/", (req, res) => {
   res.send("F.i.l.e.을 보내고 받아 보께요");
 });
-
+home / sumin / 바;
 app.use("", imgdwload);
 app.use("", imgupload);
 
-app.listen(app.get("port"), () => {
+app.listen(app.post("port"), () => {
   console.log(app.port("port"), "번 포트에서 대기 중");
 });
