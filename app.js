@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.set("port", process.env.PORT || 3000);
-home / sumin / 바;
+
 const imgupload = require("/home/sumin/바탕화면/imageNol2/routes/upImg.js");
 const imgdwload = require("/home/sumin/바탕화면/imageNol2/routes/dwImg.js");
 
